@@ -1,4 +1,5 @@
 # Python program to print all prime numbers in an interval
+# Give two positive integers as start and end
 
 def prime(start,end):
     prime_list = []

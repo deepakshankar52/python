@@ -1,12 +1,21 @@
-# Python program to swap two variables
+# using a temporary variable
 
-x = input('Enter value of x: ')
-y = input('Enter value of y: ')
+x = input("Enter value of x:")
+y = input("Enter vaue of y:")
 
-# create a temporary variable and swap the values
-temp = x
+temp = x 
 x = y
 y = temp
 
-print('The value of x after swapping: {}'.format(x))
-print('The value of y after swapping: {}'.format(y))
+print("The value of x after swapping: {}".format(x))
+print("The value of y after swapping: {}".format(y))
+
+
+# without using temporary variable
+
+x = input("Enter value of x:")
+y = input("Enter vaue of y:")
+
+x, y = y, x 
+print("Value of x: {}".format(x))
+print("Value of y: {}".format(y))

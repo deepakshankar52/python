@@ -9,3 +9,4 @@ for i in range(num):
         break
 if(flag == 0):
     print("Not a Perfect Square")
+
